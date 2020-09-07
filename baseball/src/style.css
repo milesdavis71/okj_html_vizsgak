@@ -15,14 +15,40 @@ background-image: url('baseball-background.jpg');
     padding: 20px;
     width: 800px;
     background-color: rgba(255,255,255,0.85);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+    border-left: 1px solid red;
+    border-right: 1px solid red;
 }
 
 .frame {
     padding:20px;
     margin:10px;
+    width: 150px;
     float: right;
+    border-left: 2px solid black;
 }
 
 .frame img{
     width: 150px;
+}
+
+.imgcaption{
+    text-align: center;
+    font-style: italic;
+}
+
+.kiemelt{
+    font-weight: bold;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+color: red;
 }
